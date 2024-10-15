@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 15px;
+    background: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: #777;
+}
+
+.food-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+.food-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#chatMessages {
+    border: 1px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+#chatInput {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 80%;
+    clear: both;
+}
+
+.user-message {
+    background-color: #d1f0d1;
+    text-align: right;
+    margin-left: auto;
+}
+
+.bot-message {
+    background-color: #e6e6e6;
+    text-align: left;
+}
+
+
+#cart, #myOrders, #login, #chat {
+    margin: 20px;
+}
